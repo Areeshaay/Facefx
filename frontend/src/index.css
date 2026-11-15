@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#0f1117;color:#f1f2f6}
+.app{max-width:480px;margin:auto;padding:12px}header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+nav{display:flex;gap:6px;flex-wrap:wrap}button,select,input,textarea{font:inherit;border-radius:10px;border:1px solid #2c3040;background:#1a1d27;color:inherit;padding:8px 12px}
+button{cursor:pointer}button.on{background:#7c3aed;border-color:#7c3aed}.cap{width:100%;margin-top:10px;background:#ec4899;border:0;font-weight:700;padding:12px}
+.stage{position:relative;border-radius:16px;overflow:hidden;background:#000}canvas{width:100%;display:block}.vid{position:absolute;width:1px;height:1px;opacity:0}
+.pill{position:absolute;left:8px;top:8px;background:#0009;padding:3px 10px;border-radius:99px;font-size:.75rem}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.card{background:#1a1d27;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;margin-bottom:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+img{width:100%;border-radius:10px}.err{color:#f87171;margin:0}a{color:#a78bfa;cursor:pointer}.stats{display:flex;gap:8px;margin-bottom:10px}
+.stats div{flex:1;background:#1a1d27;border-radius:12px;padding:10px;text-align:center;display:flex;flex-direction:column}.stats b{font-size:1.4rem}
